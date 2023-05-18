@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem 10%;
+    padding: 0 1rem;
+}
+.form {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+}
+
+.register {
+    margin-bottom: 2rem;
+    background-color: rgb(156, 172, 255);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.organise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.organise textarea {
+    padding: 0.5rem;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.add {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #26a100;
+    color: #fff;
+}
+
+.selections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+label {
+    margin-right: 2rem;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#issueDescription {
+    width: 500px;
+    height: 100px;
+}
+h1 {
+    margin: 1rem auto;
+    text-align: center;
+}
+select {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    float: right;
+
+    width: 100%;
+}
+
+#issuesList {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.well {
+    background-color: #ff6f6f;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.well p {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.complete {
+    padding: 0.5rem 1rem;
+    background-color: #26a100;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.remove {
+    padding: 0.5rem 1rem;
+    background-color: #a10000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.prio {
+    margin-top: 3rem;
+}
+
+.well .one {
+    margin-top: 1rem;
+}
+
+.well img {
+    width: 20px;
+    margin-right: 1rem;
+}
