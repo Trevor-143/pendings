@@ -1,2 +1,2 @@
-# Pendings
-This is a Issue Tracker build with html, css and vanilla JavaScript.
+# issue-tracker
+This is a simple Issue Tracker Web App build with vanilla JavaScript.

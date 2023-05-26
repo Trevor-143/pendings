@@ -23,25 +23,39 @@ body {
 
 .top {
     display: flex;
+    max-width: 500px;
+    min-width: 100px;
+    width: 100%;
+}
+.top div {
+    width: 100%;
 }
 
 .register {
     margin-bottom: 2rem;
-    background-color: rgb(156, 172, 255);
+    background-color: #e4e4e4;
     padding: 1rem;
     border-radius: 0.5rem;
+    max-width: 512px;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 .organise {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.organise textarea {
+.organise .top div textarea {
     padding: 0.5rem;
     background-color: #fff;
     border: none;
     outline: none;
     border-radius: 0.5rem;
+    max-width: 500px;
+    width: 100%;
+    max-height: 100px;
+    resize: none;
 }
 
 .add {
@@ -52,16 +66,29 @@ body {
     color: #fff;
 }
 
+.bottom {
+    width: 100%;
+    padding-left: 1rem;
+}
+
 .selections {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.bottom {
-    width: 100%;
-    padding-left: 1rem;
+.bottom .selections img {
+    width: 20px;
+    margin-right: 1rem;
 }
+
+.selections label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
 
 label {
     margin-right: 2rem;
@@ -69,10 +96,6 @@ label {
     font-size: 0.8rem;
 }
 
-#issueDescription {
-    width: 500px;
-    height: 100px;
-}
 h1 {
     margin: 1rem auto;
     text-align: center;
@@ -112,7 +135,7 @@ select {
 
 .complete {
     padding: 0.5rem 1rem;
-    background-color: #26a100;
+    background-color: #0077d8;
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 0.5rem;
@@ -122,7 +145,7 @@ select {
 
 .remove {
     padding: 0.5rem 1rem;
-    background-color: #a10000;
+    background-color: #d10000;
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 0.5rem;

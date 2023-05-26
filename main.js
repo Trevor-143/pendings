@@ -85,8 +85,8 @@ const fetchIssues = () => {
       <h6>Issue ID: ${id} </h6>
       <p class="one"> <img src="./images/clock-icon.png" />  <span> ${status} </span></p>
       <h3> ${description} </h3>
-      <p class="prio"><span > <img src="./images/priorities-icon.png" /> </span> ${severity}</p>
-      <p><span > <img src="./images/contacts-icon.png" />  </span> ${assignedTo}</p>
+      <p class="prio"><span > <img src="./images/prio.png" /> </span> ${severity}</p>
+      <p><span > <img src="./images/cont.png" />  </span> ${assignedTo}</p>
       <button onclick="closeIssue(${id})" class="complete">Close</button>
       <button onclick="deleteIssue(${id})" class="remove">Delete</button>
     
